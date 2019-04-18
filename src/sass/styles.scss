@@ -1,0 +1,15 @@
+main, body {
+  width: 100%;
+  margin: 0;
+  height: 0; }
+
+@import "./helpers/variables";
+@import "./layout/header";
+@import "./layout/footer";
+@import "./components/welcome";
+@import "./components/form";
+@import "./components/map";
+@import "./components/places-to-stay";
+@import "./components/listing";
+@import "./components/places-to-see";
+@import "./components/small-listing";

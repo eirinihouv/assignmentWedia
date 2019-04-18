@@ -1,0 +1,31 @@
+.small-listing {
+  flex: 1 0 26%;
+  margin-bottom: 30px;
+  padding: 5px 10px;
+
+  &__image {
+    width: 100%;
+    height: 180px;
+  }
+
+  &__type {
+    font-size: 0.7em;
+    margin: 0;
+    margin-top: 10px;
+  }
+
+  &__name {
+    font-size: $title-text;
+    margin: 0;
+  }
+
+  &__description {
+    font-size: $subtitle-text;
+    margin-top: 0;
+  }
+
+  &__link {
+    font-size: 0.8em;
+    color: black;
+  }
+}

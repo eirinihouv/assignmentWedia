@@ -1,0 +1,80 @@
+.form {
+  position: absolute;
+  top: 50%;
+  -ms-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
+  width: 23%;
+  height: 70%;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  left: 13%;
+
+  &__title {
+    font-size: $title-text;
+    margin: 0;
+  }
+
+  &__subtitle {
+    font-size: $subtitle-text;
+    margin: 5px 0;
+  }
+
+  &__search {
+    background-color: #D3D3D3;
+    text-align: right;
+    padding: 2px;
+
+    &__icon {
+      padding: 5px;
+    }
+  }
+
+  &__dates {
+    display: flex;
+
+    &__checkin {
+      width: 100%;
+      padding-right: 5px;
+    }
+
+    &__checkout{
+      width: 100%;
+      padding-left: 5px;
+    }
+  }
+
+  &__checkin {
+    width: 100%;
+    background-color: #D3D3D3;
+    text-align: right;
+    padding: 1px;
+
+    &__icon {
+      padding: 5px;
+    }
+  }
+
+  &__checkout {
+    width: 100%;
+    background-color: #D3D3D3;
+    text-align: right;
+    padding: 1px;
+
+    &__icon {
+      padding: 5px;
+    }
+  }
+
+  &__button {
+    width: 101%;
+    background-color: #696969;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 0;
+  }
+}

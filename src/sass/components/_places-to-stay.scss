@@ -1,0 +1,14 @@
+.places-to-stay {
+  background-color: #E0E0E0;
+  padding: 0 180px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+
+  &__title {
+    font-size: $title-text;
+  }
+
+  &__subtitle {
+    font-size: $subtitle-text;
+  }
+}

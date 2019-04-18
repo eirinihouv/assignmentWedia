@@ -1,0 +1,237 @@
+main, body {
+  width: 100%;
+  margin: 0;
+  height: 0; }
+
+.header {
+  width: 100%;
+  height: 125px;
+  background-color: #696969;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+  .header__logo {
+    color: white;
+    font-size: 2.5em; }
+  .header__menu {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around; }
+  .header__navbar {
+    font-size: 0.7em; }
+    .header__navbar__link {
+      margin: 0 5px;
+      color: white; }
+  .header__button {
+    font-size: 0.9em;
+    padding: 8px 20px;
+    border-radius: 10%;
+    margin-left: 10px; }
+
+.footer {
+  background-color: #696969;
+  padding: 30px; }
+  .footer__upper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 70px;
+    padding-right: 120px; }
+  .footer__logo {
+    color: white;
+    font-size: 2.5em; }
+  .footer__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-size: 0.7em; }
+    .footer__links__column {
+      display: block;
+      width: 60px; }
+      .footer__links__column__link {
+        color: white; }
+  .footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+    color: white;
+    margin-top: 50px;
+    padding-left: 145px;
+    padding-right: 70px; }
+
+.welcome {
+  position: relative; }
+  .welcome__icon {
+    width: 100%;
+    height: 400px; }
+  .welcome__container {
+    height: 400px;
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    top: 0%; }
+
+.carousel__circle {
+  background: #696969;
+  width: 8px;
+  height: 8px;
+  margin: 20px 5px;
+  border-radius: 50%; }
+  .carousel__circle--active {
+    background: black; }
+
+.form {
+  position: absolute;
+  top: 50%;
+  -ms-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
+  width: 23%;
+  height: 70%;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  left: 13%; }
+  .form__title {
+    font-size: 1.4em;
+    margin: 0; }
+  .form__subtitle {
+    font-size: 0.9em;
+    margin: 5px 0; }
+  .form__search {
+    background-color: #D3D3D3;
+    text-align: right;
+    padding: 2px; }
+    .form__search__icon {
+      padding: 5px; }
+  .form__dates {
+    display: flex; }
+    .form__dates__checkin {
+      width: 100%;
+      padding-right: 5px; }
+    .form__dates__checkout {
+      width: 100%;
+      padding-left: 5px; }
+  .form__checkin {
+    width: 100%;
+    background-color: #D3D3D3;
+    text-align: right;
+    padding: 1px; }
+    .form__checkin__icon {
+      padding: 5px; }
+  .form__checkout {
+    width: 100%;
+    background-color: #D3D3D3;
+    text-align: right;
+    padding: 1px; }
+    .form__checkout__icon {
+      padding: 5px; }
+  .form__button {
+    width: 101%;
+    background-color: #696969;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 0; }
+
+.map {
+  height: 330px; }
+  .map__container {
+    width: 100%;
+    height: 100%; }
+
+.places-to-stay {
+  background-color: #E0E0E0;
+  padding: 0 180px;
+  padding-top: 10px;
+  padding-bottom: 40px; }
+  .places-to-stay__title {
+    font-size: 1.4em; }
+  .places-to-stay__subtitle {
+    font-size: 0.9em; }
+
+.listing {
+  display: flex;
+  background: white;
+  padding: 10px;
+  margin: 15px 0; }
+  .listing__image {
+    flex-basis: 45%; }
+  .listing__info {
+    padding: 20px; }
+    .listing__info__name {
+      font-size: 1.4em;
+      margin-top: 0; }
+    .listing__info__description {
+      font-size: 0.7em; }
+  .listing__capacity {
+    display: flex;
+    align-items: center;
+    font-size: 0.7em; }
+    .listing__capacity__icon {
+      width: 40px;
+      height: 30px; }
+  .listing__details {
+    flex-basis: 42%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 15px; }
+  .listing__rating {
+    font-weight: unset;
+    margin-bottom: 0; }
+  .listing__button {
+    width: 100%;
+    background-color: #696969;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 0; }
+
+.places-to-see {
+  background-color: white;
+  padding: 10px 180px;
+  margin-top: 250px; }
+  .places-to-see__title {
+    font-size: 1.4em;
+    margin-left: 10px; }
+  .places-to-see__subtitle {
+    font-size: 0.9em;
+    margin-left: 10px; }
+  .places-to-see .small-listings {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between; }
+
+.small-listing {
+  flex: 1 0 26%;
+  margin-bottom: 30px;
+  padding: 5px 10px; }
+  .small-listing__image {
+    width: 100%;
+    height: 180px; }
+  .small-listing__type {
+    font-size: 0.7em;
+    margin: 0;
+    margin-top: 10px; }
+  .small-listing__name {
+    font-size: 1.4em;
+    margin: 0; }
+  .small-listing__description {
+    font-size: 0.9em;
+    margin-top: 0; }
+  .small-listing__link {
+    font-size: 0.8em;
+    color: black; }

@@ -1,0 +1,22 @@
+.places-to-see {
+  background-color: white;
+  padding: 10px 180px;
+  margin-top: 250px;
+
+  &__title {
+    font-size: $title-text;
+    margin-left: 10px;
+  }
+
+  &__subtitle {
+    font-size: $subtitle-text;
+    margin-left: 10px;
+  }
+
+  .small-listings {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+};

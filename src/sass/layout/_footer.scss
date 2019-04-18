@@ -1,0 +1,44 @@
+.footer {
+  background-color: $primary-color;
+  padding: 30px;
+
+  &__upper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 70px;
+    padding-right: 120px;
+  }
+
+  &__logo {
+     color: white;
+     font-size: 2.5em;
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-size: 0.7em;
+
+    &__column {
+      display: block;
+      width: 60px;
+
+      &__link {
+        color: white;
+      }
+    }
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+    color: white;
+    margin-top: 50px;
+    padding-left: 145px;
+    padding-right: 70px;
+  }
+}
